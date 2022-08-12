@@ -1,0 +1,45 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+.contactus{
+    height: 467px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    height: 57vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.myinput{
+    justify-content: center;
+    align-items: center;
+    width: 44%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 11px;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #a5170f;
+    padding: 5px;
+    margin-top: 17px;
+    margin: 12px;
+    width: 119px;
+    border: 2px solid #2d0e0e;
+    border-radius: 25px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+}

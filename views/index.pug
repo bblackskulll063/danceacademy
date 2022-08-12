@@ -1,0 +1,64 @@
+doctype html 
+html 
+    head 
+        title Himanshu Dance Academy  
+        style 
+            include ../static/style.css 
+
+    body
+        nav#navbar 
+            ul  
+                div#logo
+                    img(src="/static/img/3.jpg")
+                    | HDA
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]
+            
+        section#introsection 
+            div Welcome to Himanshu's Dance Academy 
+            div.small !!  Eat Sleep Dance Repeat...
+ 
+        section#missionssection 
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection 
+                div.card-box
+                    div.card-img-1
+                        img(src="/static/img/2.jpg")    
+                    div.card-content 
+                        p This is the best dance academy in this universe
+
+            div.card
+                h3 Dance the way you like 
+                div.card-box
+                    div.card-img-2
+                        img(src="/static/img/1.jpg")    
+                    div.card-content 
+                        p This is the best dance academy in this universe
+
+            div.card
+                h3 Expert Teaching
+                div.card-box
+                    div.card-img-3
+                        img(src="/static/img/4.jpg")    
+                    div.card-content 
+                        p This is the best dance academy in this universe
+                    
+            
+
+
+        section#sponsorsection 
+            h3 Section for sponsors
+            img(src="/static/img/apple.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/google.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/github.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/linkedin.png", alt="Sponsor Image", Class="spImage")
+        
+        footer#footer
+            | Copyright © 2019 HarryAcademy.com | All rights Reserved
+        
+    script 
+        include ../static/index.js
